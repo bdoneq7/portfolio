@@ -56,6 +56,22 @@ header a {
     text-decoration: none;
 }
 
+#about {
+    scroll-margin-top: 40px;
+}
+
+#work {
+    scroll-margin-top: 40px;
+}
+
+#contact {
+    scroll-margin-top: 40px;
+}
+
+#resume {
+    scroll-margin-top: 40px;
+}
+
 header nav{
     margin:7px 0;
 }
