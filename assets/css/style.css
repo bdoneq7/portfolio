@@ -75,7 +75,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: var(--primary-color);
+    background: var(--fourth-color);
     color: var(--secondary-color);
     border-radius: 15px;
     text-shadow: none;
@@ -93,6 +93,35 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     align-items: flex-start;
 }
+
+.hero-developer {
+    width: 23%;
+    text-align: center;
+    margin: 3.5%;
+    padding-right:20px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.2;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    
+}
+
+.hero-sub-title {
+    border:solid 3px var(--secondary-color);
+    background-color: rgba(252,225,56,0.8);
+    padding:20px;
+    color:var(--secondary-color);
+    width: 24%;
+    margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    position: absolute;
+    top: 425px;
+    right: 200px;
+}
+
 /* Hero Style End */
 
 /* Section Style */
