@@ -8,20 +8,30 @@
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
     <body>
-        <!-- nagivation -->
+        <!-- WHEN I resize the page or view the site on various screens and devices -->
+        <!-- nagivation THEN I am presented with a responsive layout that adapts to my viewport -->
         <header>
             <h1>Brian Done Portfolio</h1>
             <nav>
                 <!-- unordered list element -->
                 <ul>
                     <li>
-                        <a href="#menu1">Menu 1</a>
+                        <!-- when a link is clicked, the user interface scrolls to corresponding section id -->
+                        <a href="#aboutme">About Brian</a>
                     </li>
                     <li>
-                        <a href="#menu2">Menu 2</a>
+                        <!-- user interface scrolls to a a section with titled images of the developer's applications 
+                        WHEN I am presented with the developer's first application 
+                        THEN that application's image should be larger in size than the others 
+                        WHEN I click on the images of the applications 
+                        THEN I am taken to that deployed application -->
+                        <a href="#work">Work</a>
                     </li>
                     <li>
-                        <a href="#menu3">Menu 3</a>
+                        <a href="#contact">Contact Brian</a> 
+                    </li>
+                    <li>
+                        <a href="#Resume">Resume</a>
                     </li>
                 </ul>
             </nav>
@@ -29,9 +39,60 @@
 
         <!-- hero section -->
         <section class="hero">
-            Sample Work
+            Full Stack Web Developer<br/>
         </section>
         <!-- end hero -->
+
+        <!-- about brian section -->
+        <!-- make 2 divs with flexbox-->
+        <section class="container-light" id="#aboutme">
+            <div class="detail-title-light">
+                <h2>About<br/> Brian</h2>
+            </div>
+            <div class="detail-light">
+                Description
+            </div>
+        </section>
+        <!-- end about brian -->
+
+        <!-- work section -->
+        <!-- make 2 divs with flexbox-->
+        <section class="container-dark" id="work">
+            <div class="detail-title-dark">
+                <h2>Work</h2>
+            </div>
+            <div class="detail-dark">
+                <div class="work-large">
+                    <p>Large Box 1st App</p>
+                </div>
+                Smaller Boxes underneath for other work
+            </div>
+        </section>
+        <!-- end work -->
+
+        <!-- contact me section -->
+        <!-- make 2 divs with flexbox-->
+        <section class="container-light" id="contact">
+            <div class="detail-title-light">
+                <h2>Contact</h2>
+            </div>
+            <div class="detail-light">
+                | 813.551.9096 | email | GitHub | Twitter | Spotify
+            </div>
+        </section>    
+        <!-- end contact me -->
+
+        <!-- resume section -->
+        <!-- make 2 divs with flexbox-->
+        <section class="container-dark" id="resume">
+            <div class="detail-title-dark">
+                <h2>Resume</h2>
+            </div>
+            <div class="detail-dark">
+                Resume
+            </div>
+        </section>    
+        <!-- end contact me -->
 
         <footer>
             <h2>&copy 2021 Brian Done</h2>
