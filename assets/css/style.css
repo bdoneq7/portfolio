@@ -366,6 +366,31 @@ section {
 /* Sample Work End */
 
 
+/* Contact Styles */
+
+.contact {
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.method {
+    margin-right: 20px;
+    font-size:20px;
+}
+
+.method a {
+    color: var(--fifth-color);
+}
+
+.method a:hover {
+    color: var(--fourth-color);
+}
+
+/* Contact End */
+
 /* Footer styles */
 
 footer {
