@@ -1,14 +1,11 @@
+/* Variable Styles */
 :root {
-    --primary-color: #572175;
-    --secondary-color: #024e76;
-    --tertiary-color: #39a6b2;
-    --fourth-color: #fce138;
-    --fifth-color: #ffffff;
-    --sixth-color: #c2b9ce;
-    --seventh-color: #350a5b;
-    --eighth-color: #f89b72;
-    --ninth-color: #7c4f91;
-    --tenth-color: #572175;
+    --white-color: #ffffff;
+    --yellow-color: #fce138;
+    --blue-color: #024e76;
+    --lightpurple-color: #7c4f91;
+    --purple-color: #572175;
+    --darkestpurple-color: #350a5b;
   }
 
 * {
@@ -17,17 +14,16 @@
     box-sizing:border-box;
 }
 
-
+/* Body Styles */
 body {
-    /* body styles */
-    color: var(--sixth-color);             
+    color: var(--purple-color);             
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* header styles */
+/* Header Styles */
 header {
     padding: 20px 35px;
-    background-color: var(--seventh-color);
+    background-color: var(--darkestpurple-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -45,13 +41,13 @@ header {
 header h1 {
     font-weight:bold;
     font-size:36px;
-    color:var(--fourth-color);
+    color:var(--yellow-color);
     margin:0;
     text-shadow: 0 0 10px rgba(248, 89, 200, 0.5);
 }
 
 header a {
-    color:var(--fifth-color);
+    color:var(--white-color);
     text-decoration: none;
 }
 
@@ -91,8 +87,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: var(--fourth-color);
-    color: var(--secondary-color);
+    background: var(--yellow-color);
+    color: var(--blue-color);
     border-radius: 15px;
     text-shadow: none;
 }
@@ -129,7 +125,7 @@ header nav ul li a:hover {
     text-align: center;
     margin: 3.5%;
     padding-right:20px;
-    color: var(--fifth-color);
+    color: var(--white-color);
     font-size: 18px;
     line-height: 1.2;
     position: absolute;
@@ -139,10 +135,10 @@ header nav ul li a:hover {
 }
 
 .hero-sub-title {
-    border:solid 3px var(--secondary-color);
+    border:solid 3px var(--blue-color);
     background-color: rgba(252,225,56,0.8);
     padding:20px;
-    color:var(--secondary-color);
+    color:var(--blue-color);
     width: 22%;
     margin: 3.5%;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -152,19 +148,9 @@ header nav ul li a:hover {
     right: 200px;
 }
 
-/* Hero Style End */
-
-/* Section Style */
-
-section {
-    padding:60px;
-}
-
-/* Section Style End */
-
-/* Container Light Style */
+/* Container Styles */
 .container-light {
-    background: var(--ninth-color); 
+    background: var(--lightpurple-color); 
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -173,13 +159,11 @@ section {
     flex-wrap: wrap;
     align-items: center;
     height: 400px;
-    color: var(--fifth-color);
+    color: var(--white-color);
 }
-/* Container Light Styles End */
 
-/* Container Dark Styles */
 .container-dark {
-    background: var(--tenth-color); 
+    background: var(--purple-color); 
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -188,82 +172,11 @@ section {
     flex-wrap: wrap;
     align-items: center;
     height: 400px;
-    color: var(--fifth-color);
+    color: var(--white-color);
 }
-/* Container Dark Styles End */
 
-/* Detail Title Light Styles */
-.detail-title-light {
-    background: var(--ninth-color); 
-    color: var(--secondary-color);
-    font-size: 30px;
-    display: flex;
-    justify-content: right;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    height: 300px;
-    width: 15%;
-    padding-right: 10px;
-    border-right: 2px solid var(--fifth-color);
-    color: var(--fifth-color);
-}
-/* Detail Title Light Styles End */
-
-
-/* Detail Title Dark Styles */
-.detail-title-dark {
-    background: var(--tenth-color); 
-    color: var(--secondary-color);
-    font-size: 30px;
-    display: flex;
-    justify-content: right;
-    text-align: right;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    height: 300px;
-    width: 15%;
-    padding-right: 10px;
-    border-right: 2px solid var(--fifth-color);
-    color: var(--fifth-color);
-}
-/* Detail Title Dark Styles End */
-
-
-/* Detail Light Styles */
-.detail-light {
-    background: var(--ninth-color); 
-    color: var(--secondary-color);
-    display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    height: 300px;
-    width: 85%;
-    padding-left: 20px;
-    color: var(--fifth-color);
-}
-/* Detail Light Styles End */
-
-/* Detail Dark Styles */
-.detail-dark {
-    background: var(--tenth-color); 
-    color: var(--secondary-color);
-    display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    height: 300px;
-    width: 85%;
-    padding-left: 20px;
-    color: var(--fifth-color);
-}
-/* Detail Dark Styles End */
-
-/* Work Styles */
-
-/* Container Dark Styles */
 .container-work {
-    background: var(--tenth-color); 
+    background: var(--purple-color); 
     background-attachment: fixed;
     background-position: 80%;
     display: flex;
@@ -271,32 +184,43 @@ section {
     flex-wrap: wrap;
     align-items: top;
     height: 1200px;
-    color: var(--fifth-color);
+    color: var(--white-color);
 }
-/* Container Dark Styles End */
 
-/* Work Title Styles */
-.work-title {
-    background: var(--tenth-color); 
-    color: var(--secondary-color);
+/* About Brian Section Styles */
+.detail-title-light {
+    background: var(--lightpurple-color); 
+    color: var(--blue-color);
     font-size: 30px;
     display: flex;
     justify-content: right;
-    text-align: right;
     flex-wrap: wrap;
     align-items: flex-start;
-    height: 1100px;
+    height: 300px;
     width: 15%;
     padding-right: 10px;
-    border-right: 2px solid var(--fifth-color);
-    color: var(--fifth-color);
+    border-right: 2px solid var(--white-color);
+    color: var(--white-color);
 }
-/* Work Title Styles End */
 
-/* Work Detail Styles */
+.detail-light {
+    background: var(--lightpurple-color); 
+    color: var(--blue-color);
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 300px;
+    width: 85%;
+    padding-left: 20px;
+    color: var(--white-color);
+}
+
+/* Featured Work Styles */
+
 .featured-detail {
-    background: var(--tenth-color); 
-    color: var(--secondary-color);
+    background: var(--purple-color); 
+    color: var(--blue-color);
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
@@ -304,21 +228,18 @@ section {
     height: 600px;
     width: 85%;
     padding-left: 20px;
-    color: var(--fifth-color);
+    color: var(--white-color);
 }
-/* Work Detail Styles End */
-
-/* Featured Work Styles */
 
 .featured-work {
-    background: var(--fourth-color); 
-    color: var(--secondary-color);
+    background: var(--yellow-color); 
+    color: var(--blue-color);
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
     height: 500px;
     width:80%;
-    border: 5px solid var(--fourth-color);
+    border: 5px solid var(--yellow-color);
 }
 
 .featured-work img {
@@ -333,10 +254,10 @@ section {
   }
 
 .featured-work-title {
-    border:solid 3px var(--fourth-color);
-    background-color: var(--fourth-color);
+    border:solid 3px var(--yellow-color);
+    background-color: var(--yellow-color);
     padding:10px;
-    color:var(--primary-color);
+    color:var(--purple-color);
     font-size: 20px;
     font-weight: bold;
     width: 10%;
@@ -345,19 +266,31 @@ section {
 }
 
 .featured-work-title-sub {
-    color:var(--primary-color);
+    color:var(--purple-color);
     font-size: 12px;
 }
 
-/* Featured Work End */
+/* Work Sample Styles */
 
-
-
-/* Sample Work Styles */
+.work-title {
+    background: var(--purple-color); 
+    color: var(--blue-color);
+    font-size: 30px;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 1100px;
+    width: 15%;
+    padding-right: 10px;
+    border-right: 2px solid var(--white-color);
+    color: var(--white-color);
+}
 
 .sample-work {
-    background: var(--fourth-color); 
-    color: var(--secondary-color);
+    background: var(--yellow-color); 
+    color: var(--blue-color);
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
@@ -365,7 +298,7 @@ section {
     width:39.15%;
     margin-top: 20px;
     margin-right: 20px;
-    border: 5px dashed var(--fourth-color);
+    border: 5px dashed var(--yellow-color);
 }
 
 .sample-work img {
@@ -375,10 +308,10 @@ section {
 }
 
 .sample-work-title {
-    border:solid 3px var(--fourth-color);
-    background-color: var(--fourth-color);
+    border:solid 3px var(--yellow-color);
+    background-color: var(--yellow-color);
     padding:10px;
-    color:var(--primary-color);
+    color:var(--purple-color);
     font-size: 20px;
     font-weight: bold;
     width: 10%;
@@ -387,17 +320,14 @@ section {
 }
 
 .sample-work-title-sub {
-    color:var(--primary-color);
+    color:var(--purple-color);
     font-size: 12px;
 }
-
-/* Sample Work End */
-
 
 /* Contact Styles */
 
 .container-contact {
-    background: var(--ninth-color); 
+    background: var(--lightpurple-color); 
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -406,12 +336,12 @@ section {
     flex-wrap: wrap;
     align-items: center;
     height: 200px;
-    color: var(--fifth-color);
+    color: var(--white-color);
 }
 
 .detail-title-contact {
-    background: var(--ninth-color); 
-    color: var(--secondary-color);
+    background: var(--lightpurple-color); 
+    color: var(--blue-color);
     font-size: 30px;
     display: flex;
     justify-content: right;
@@ -420,13 +350,13 @@ section {
     height: 100px;
     width: 15%;
     padding-right: 10px;
-    border-right: 2px solid var(--fifth-color);
-    color: var(--fifth-color);
+    border-right: 2px solid var(--white-color);
+    color: var(--white-color);
 }
 
 .detail-contact {
-    background: var(--ninth-color); 
-    color: var(--secondary-color);
+    background: var(--lightpurple-color); 
+    color: var(--blue-color);
     display: flex;
     justify-content: left;
     text-align: right;
@@ -435,9 +365,8 @@ section {
     height: 100px;
     width: 85%;
     padding-left: 20px;
-    color: var(--fifth-color);
+    color: var(--white-color);
 }
-
 
 .contact {
     text-decoration: underline;
@@ -453,17 +382,43 @@ section {
 }
 
 .method a {
-    color: var(--fifth-color);
+    color: var(--white-color);
 }
 
 .method a:hover {
-    color: var(--fourth-color);
+    color: var(--yellow-color);
 }
 
-/* Contact End */
-
-
 /* Resume Styles */
+
+.detail-title-dark {
+    background: var(--purple-color); 
+    color: var(--blue-color);
+    font-size: 30px;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 300px;
+    width: 15%;
+    padding-right: 10px;
+    border-right: 2px solid var(--white-color);
+    color: var(--white-color);
+}
+
+.detail-dark {
+    background: var(--purple-color); 
+    color: var(--blue-color);
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 300px;
+    width: 85%;
+    padding-left: 20px;
+    color: var(--white-color);
+}
 
 .resume-title {
     display:flex;
@@ -472,7 +427,7 @@ section {
     align-items: center;
     width: 15%;
     margin-right: 20px;
-    color: var(--fourth-color);
+    color: var(--yellow-color);
     font-size: 20px;
 }
 
@@ -485,12 +440,10 @@ section {
     font-size: 20px;
 }
 
-/* Resume Styles End */
-
 /* Footer styles */
 
 footer {
-    background: var(--seventh-color);
+    background: var(--darkestpurple-color);
     width:100%;
     padding:40px 35px;
     display: flex;
@@ -499,7 +452,7 @@ footer {
 }
 
 footer h2 {
-    color:var(--fourth-color);
+    color:var(--yellow-color);
     font-size:30px;
     margin:0;
 }
@@ -510,15 +463,17 @@ footer div {
 }
 
 footer a {
-    color:var(--secondary-color);
+    color:var(--blue-color);
 }
-
-/* Footer Styles End */
 
 /* Utility Classes */
 
 .yellow {
-    color: var(--fourth-color);
+    color: var(--yellow-color);
+}
+
+section {
+    padding:60px;
 }
 
 /* Media queries must go in the following order, after all of the other styles */
@@ -552,31 +507,9 @@ footer a {
         width: 100%;
     }
 
-    .areawhite {
-        background: var(--fifth-color); 
-        background-size: cover;
-        background-attachment: fixed;
-        background-position: 80%;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-
-    .areagray {
-        background: var(--sixth-color); 
-        background-size: cover;
-        background-attachment: fixed;
-        background-position: 80%;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-
     .detail-title {
-        background: var(--fifth-color); 
-        color: var(--secondary-color);
+        background: var(--white-color); 
+        color: var(--blue-color);
         font-size: 30px;
         display: flex;
         justify-content: right;
@@ -585,12 +518,12 @@ footer a {
         height: 200px;
         width: 30%;
         padding-right: 10px;
-        border-right: 2px solid var(--secondary-color);
+        border-right: 2px solid var(--blue-color);
     }
 
     .details {
-        background: var(--fifth-color); 
-        color: var(--secondary-color);
+        background: var(--white-color); 
+        color: var(--blue-color);
         display: flex;
         justify-content: left;
         flex-wrap: wrap;
