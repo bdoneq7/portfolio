@@ -107,8 +107,6 @@ header nav ul li a:hover {
 }
 
 .brianpic {
-    background-image: url("../images/brian.png");
-    background-size: cover;
     width: 23%;
     text-align: center;
     margin: 3.5%;
