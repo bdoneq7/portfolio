@@ -703,6 +703,7 @@ section {
         margin-bottom: 20px;
         color: var(--white-color);
         border-bottom: 2px solid var(--white-color);
+        border-right: none;
     }
 
     .detail-light {
@@ -788,6 +789,7 @@ section {
         margin-bottom: 20px;
         color:var(--white-color);
         border-bottom: 2px solid var(--white-color);
+        border-right: none;
     } 
 
     .sample-work {
@@ -846,6 +848,7 @@ section {
         justify-content: center;
         color: var(--white-color);
         border-bottom: 2px solid var(--white-color);
+        border-right: none;
     }
 
     .detail-contact {
@@ -904,6 +907,7 @@ section {
         color: var(--white-color);
         padding-bottom: 20px;
         margin-bottom: 20px;
+        border-right: none;
     }
 
     .detail-dark {
