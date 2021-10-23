@@ -661,7 +661,7 @@ section {
     .hero-sub-title {
         border:solid 3px var(--blue-color);
         background-color: rgba(252,225,56,0.8);
-        padding:20px;
+        padding:20px 10px 20px 20px;
         color:var(--blue-color);
         width: 80%;
         margin: 3%;
