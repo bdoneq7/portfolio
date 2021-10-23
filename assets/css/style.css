@@ -607,7 +607,9 @@ section {
     header  {
         padding-bottom: 0;
         justify-content: center;
-        position:relative;
+        z-index: 9999;
+        position: -webkit-sticky; /*always put vender-prefixed versions first */
+        position: sticky;
     }
 
     header h1 {
@@ -708,7 +710,7 @@ section {
         align-items: center;
         height: 100%;
         width: 100%;
-        font-size: 14px;
+        font-size: 16px;
         color: var(--white-color);
     }
 
