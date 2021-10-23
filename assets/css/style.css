@@ -598,14 +598,9 @@ section {
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
     /* this will be applied on any screen smaller than 575 px */
-
-* {
-    margin:0;
-    padding:0;
-}
     
     header  {
-        padding-bottom: 0;
+        padding-bottom: 20px;
         justify-content: center;
         z-index: 9999;
         position: -webkit-sticky; /*always put vender-prefixed versions first */
@@ -658,7 +653,7 @@ section {
         line-height: 1.2;
         position: absolute;
         top: 150px;
-        left: 100px;
+        left: 150px;
         right: auto;
         
     }
