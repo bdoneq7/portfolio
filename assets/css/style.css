@@ -599,8 +599,10 @@ section {
 @media screen and (max-width: 575px) {
     /* this will be applied on any screen smaller than 575 px */
 
-    body {
-        overflow: hidden;
+    html,body {
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
     }
     
     header  {
@@ -651,14 +653,16 @@ section {
 
     .hero-developer {
         width: 100%;
+        height: 100%;
         justify-content: center;
         color: var(--white-color);
         font-size: 16px;
-        line-height: 1.2;
         position: absolute;
-        top: 175px;
-        left: 150px;
+        top: auto;
+        left: auto;
         right: auto;
+        align-items: top;
+        padding-bottom: 20px;
         
     }
 
