@@ -669,7 +669,7 @@ section {
         padding:20px;
         color:var(--blue-color);
         width: 80%;
-        margin: 3.5%;
+        margin: 3%;
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
         border-radius: 15px;
         position: absolute;
@@ -696,7 +696,8 @@ section {
         text-align: center;
         height: 100%;
         width: 100%;
-        margin-bottom: 10px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
         color: var(--white-color);
         border-bottom: 2px solid var(--white-color);
     }
@@ -780,7 +781,8 @@ section {
         text-align: center;
         height: 100%;
         width: 100%;
-        margin-bottom: 10px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
         color:var(--white-color);
         border-bottom: 2px solid var(--white-color);
     } 
@@ -836,7 +838,8 @@ section {
         flex-wrap: wrap;
         height: 100%;
         width: 100%;
-        margin-bottom: 10px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
         justify-content: center;
         color: var(--white-color);
         border-bottom: 2px solid var(--white-color);
@@ -896,6 +899,8 @@ section {
         width: 100%;
         border-bottom: 2px solid var(--white-color);
         color: var(--white-color);
+        padding-bottom: 20px;
+        margin-bottom: 20px;
     }
 
     .detail-dark {
@@ -913,13 +918,13 @@ section {
 
     .resume-title {
         display:flex;
-        justify-content: right;
+        justify-content: left;
         flex-wrap: wrap;
-        align-items: center;
-        width: 15%;
-        margin-right: 20px;
+        align-items: left;
+        width: 100%;
         color: var(--yellow-color);
         font-size: 20px;
+        margin-bottom: 20px;
     }
 
     .skills {
@@ -927,8 +932,9 @@ section {
         justify-content: left;
         flex-wrap: wrap;
         align-items: center;
-        width: 80%;
+        width: 100%;
         font-size: 20px;
+        margin-bottom: 20px;
     }
     
 }
