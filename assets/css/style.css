@@ -617,7 +617,7 @@ section {
         font-weight: bold;
     }
 
-    header h2, footer div {
+    footer {
         text-align: center;
         width: 100%;
     }
@@ -722,14 +722,13 @@ section {
         justify-content: left;
         flex-wrap: wrap;
         height: 100%;
-        width:100%;
+        width:94%;
         border: 5px solid var(--yellow-color);
     }
 
     .featured-work img {
         max-width: 100%;
         max-height: 100%;
-        flex: 1 12%;
     }
     
     .featured-work img a {
