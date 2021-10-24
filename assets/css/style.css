@@ -921,5 +921,14 @@ section {
         font-size: 20px;
         margin-bottom: 20px;
     }
+
+    footer {
+        background: var(--darkestpurple-color);
+        width:100%;
+        padding:40px 35px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
     
 }
