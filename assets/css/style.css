@@ -722,7 +722,7 @@ section {
         justify-content: left;
         flex-wrap: wrap;
         height: 100%;
-        width:94%;
+        width:94.5%;
         border: 5px solid var(--yellow-color);
     }
 
@@ -743,7 +743,7 @@ section {
         font-size: 12px;
         font-weight: bold;
         width: 24%;
-        margin-top: 2%;
+        margin-top: 15%;
         position: absolute;
     }  
 
@@ -794,7 +794,7 @@ section {
         font-size: 12px;
         font-weight: bold;
         width: 22%;
-        margin-top: 13%;
+        margin-top: 35%;
         position: absolute;
     }
 
