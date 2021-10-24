@@ -728,7 +728,7 @@ section {
 
     .featured-work img {
         flex: auto;
-        min-height: 500px;
+        min-height: 400px;
     }
 
     .featured-work-title {
