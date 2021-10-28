@@ -11,7 +11,7 @@ A portfolio of work to showcase my skills and talents to employers
 https://bdoneq7.github.io/portfolio/
 
 ## Website Screenshot
-![Alt Brian Done Portfolio Screenshot](https://github.com/bdoneq7/portfolio/blob/main/assets/images/screenshot.PNG?raw=true "Brian Doe Portfolio Screenshot")
+![Alt Brian Done Portfolio Screenshot](https://github.com/bdoneq7/portfolio/blob/main/assets/images/screenshot.PNG?raw=true "Brian Done Portfolio Screenshot")
 
 ## Contribution
 Made with ❤️ by [Brian Done]
