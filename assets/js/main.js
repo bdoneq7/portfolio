@@ -1,5 +1,4 @@
 var body = document.body;
-var header = document.header;
 
 var slogan = function () {
     var moveTextEl = document.createElement("div");
