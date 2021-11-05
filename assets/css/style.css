@@ -20,6 +20,22 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+.slogan {
+    padding: 20px 35px;
+    background-color: var(--darkestpurple-color);
+    color: var(--yellow-color);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    top: 250px;
+    right: 400px;
+    z-index: 10000;
+    border: 5px solid var(--lightpurple-color);
+    border-radius: 10px;
+}
+
 /* Header Styles */
 header {
     padding: 20px 35px;
