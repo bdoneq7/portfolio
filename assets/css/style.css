@@ -20,7 +20,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-.slogan {
+.slogan-html {
     padding: 20px 35px;
     background-color: var(--darkestpurple-color);
     color: var(--yellow-color);
@@ -29,8 +29,89 @@ body {
     text-align: center;
     display: flex;
     position: absolute;
-    top: 250px;
+    top: 125px;
+    right: 800px;
+    z-index: 10000;
+    border: 5px solid var(--lightpurple-color);
+    border-radius: 10px;
+}
+
+
+.slogan-css {
+    padding: 20px 35px;
+    background-color: var(--darkestpurple-color);
+    color: var(--yellow-color);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    top: 225px;
+    right: 750px;
+    z-index: 10000;
+    border: 5px solid var(--lightpurple-color);
+    border-radius: 10px;
+}
+
+.slogan-javascript {
+    padding: 20px 35px;
+    background-color: var(--darkestpurple-color);
+    color: var(--yellow-color);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    top: 325px;
+    right: 600px;
+    z-index: 10000;
+    border: 5px solid var(--lightpurple-color);
+    border-radius: 10px;
+}
+
+.slogan-jquery {
+    padding: 20px 35px;
+    background-color: var(--darkestpurple-color);
+    color: var(--yellow-color);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    top: 125px;
     right: 400px;
+    z-index: 10000;
+    border: 5px solid var(--lightpurple-color);
+    border-radius: 10px;
+}
+
+.slogan-bootstrap {
+    padding: 20px 35px;
+    background-color: var(--darkestpurple-color);
+    color: var(--yellow-color);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    top: 225px;
+    right: 300px;
+    z-index: 10000;
+    border: 5px solid var(--lightpurple-color);
+    border-radius: 10px;
+}
+
+.slogan-github {
+    padding: 20px 35px;
+    background-color: var(--darkestpurple-color);
+    color: var(--yellow-color);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    top: 325px;
+    right: 250px;
     z-index: 10000;
     border: 5px solid var(--lightpurple-color);
     border-radius: 10px;
