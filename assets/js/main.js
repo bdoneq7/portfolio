@@ -43,7 +43,7 @@ var sloganBootstrap = function () {
     bootstrapEl.className = "slogan-bootstrap";
 
 }
-setTimeout(sloganBootstrap, 4000);
+setTimeout(sloganBootstrap, 5000);
 
 var sloganGithub = function () {
     var githubEl = document.createElement("div");
@@ -52,5 +52,5 @@ var sloganGithub = function () {
     githubEl.className = "slogan-github";
 
 }
-setTimeout(sloganGithub, 5000);
+setTimeout(sloganGithub, 6000);
 
