@@ -20,6 +20,10 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+a:link, a:visited {
+    color: var(--white-color);
+}
+
 .slogan-html {
     padding: 20px 35px;
     background-color: var(--darkestpurple-color);
@@ -141,6 +145,10 @@ header h1 {
     color:var(--yellow-color);
     margin:0;
     text-shadow: 0 0 10px rgba(248, 89, 200, 0.5);
+}
+
+h3 {
+    padding-right: 10px;
 }
 
 header a {
