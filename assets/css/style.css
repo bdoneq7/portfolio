@@ -307,6 +307,10 @@ header nav ul li a:hover {
     color: var(--white-color);
 }
 
+#develop {
+    color: var(--yellow-color);
+}
+
 /* Featured Work Styles */
 
 .featured-detail {

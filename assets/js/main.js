@@ -54,3 +54,14 @@ var sloganGithub = function () {
 }
 setTimeout(sloganGithub, 6000);
 
+$(document).ready(function(){
+
+$( "#develop" ).animate({
+      width: "70%",
+      opacity: 1,
+      fontSize: "3em",
+      borderWidth: "10px"
+}, 1500 );
+
+}); 
+
