@@ -121,6 +121,22 @@ a:link, a:visited {
     border-radius: 10px;
 }
 
+.slogan-ajax {
+    padding: 20px 35px;
+    background-color: var(--darkestpurple-color);
+    color: var(--yellow-color);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    top: 125px;
+    right: 50px;
+    z-index: 10000;
+    border: 5px solid var(--lightpurple-color);
+    border-radius: 10px;
+}
+
 /* Header Styles */
 header {
     padding: 20px 35px;
@@ -276,7 +292,7 @@ header nav ul li a:hover {
     justify-content: center;
     flex-wrap: wrap;
     align-items: top;
-    height: 1200px;
+    height: 1500px;
     color: var(--white-color);
 }
 

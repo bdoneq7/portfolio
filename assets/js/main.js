@@ -54,6 +54,15 @@ var sloganGithub = function () {
 }
 setTimeout(sloganGithub, 6000);
 
+var sloganAjax = function () {
+    var ajaxEl = document.createElement("div");
+    ajaxEl.textContent = "Ajax";
+    body.appendChild(ajaxEl);
+    ajaxEl.className = "slogan-ajax";
+
+}
+setTimeout(sloganAjax, 7000);
+
 $(document).ready(function(){
 
 $( "#develop" ).animate({
