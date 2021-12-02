@@ -45,14 +45,14 @@ var sloganBootstrap = function () {
 }
 setTimeout(sloganBootstrap, 5000);
 
-var sloganGithub = function () {
-    var githubEl = document.createElement("div");
-    githubEl.textContent = "Github";
-    body.appendChild(githubEl);
-    githubEl.className = "slogan-github";
+var sloganBulma = function () {
+    var bulmaEl = document.createElement("div");
+    bulmaEl.textContent = "Bulma";
+    body.appendChild(bulmaEl);
+    bulmaEl.className = "slogan-bulma";
 
 }
-setTimeout(sloganGithub, 6000);
+setTimeout(sloganBulma, 6000);
 
 var sloganAjax = function () {
     var ajaxEl = document.createElement("div");
@@ -62,6 +62,17 @@ var sloganAjax = function () {
 
 }
 setTimeout(sloganAjax, 7000);
+
+var sloganGithub = function () {
+    var githubEl = document.createElement("div");
+    githubEl.textContent = "Github";
+    body.appendChild(githubEl);
+    githubEl.className = "slogan-github";
+
+}
+setTimeout(sloganGithub, 8000);
+
+
 
 $(document).ready(function(){
 
