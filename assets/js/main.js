@@ -72,6 +72,15 @@ var sloganGithub = function () {
 }
 setTimeout(sloganGithub, 8000);
 
+var sloganNode = function () {
+    var nodeEl = document.createElement("div");
+    nodeEl.textContent = "Node.js";
+    body.appendChild(nodeEl);
+    nodeEl.className = "slogan-node";
+
+}
+setTimeout(sloganNode, 9000);
+
 
 
 $(document).ready(function(){
