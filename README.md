@@ -6,6 +6,7 @@ A portfolio of work to showcase my skills and talents to employers
 ## Built With
 * HTML
 * CSS
+* JavaScript
 
 ## Website Link to Deployed Application
 https://bdoneq7.github.io/portfolio/
